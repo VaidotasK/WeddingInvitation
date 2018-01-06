@@ -1,0 +1,80 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:background="@drawable/churchrsz1"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="32dp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:text="Invitation!"
+        android:layout_weight="1"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="48dp"
+        android:layout_weight="2">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            android:textColor="#FFA000"
+            android:fontFamily="cursive"
+            android:layout_toStartOf="@+id/heartSmallRed"
+            android:text="Tom"/>
+
+        <ImageView
+            android:id="@+id/heartSmallRed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:adjustViewBounds="true"
+            android:maxHeight="45dp"
+            android:maxWidth="45dp"
+            android:src="@drawable/heartsmallred" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            android:textColor="#FFA000"
+            android:fontFamily="cursive"
+            android:layout_toEndOf="@id/heartSmallRed"
+            android:text="Kate"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:layout_marginBottom="32dp"
+        android:textStyle="bold"
+        android:text="2018-12-09"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:textSize="15sp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="16dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:text="For more information contact Vaidotas Karoblis"/>
+
+</LinearLayout>
